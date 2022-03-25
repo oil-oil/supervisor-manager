@@ -1,7 +1,9 @@
 <template>
   <view>
     <view class="radius">
-      <Title text="守护进程管理" />
+      <Title text="守护进程管理">
+        <view class="cu-btn bg-blue shadow-blur radius">添加</view>
+      </Title>
       <Progress></Progress>
       <Title text="实时日志" />
       <Log></Log>
@@ -12,8 +14,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import Title from "../../components/title/index.vue"
-import Progress from "./progress.vue"
-import Log from "./log.vue"
+import Progress from "./Progress.vue"
+import Log from "./Log.vue"
 
 </script>
 

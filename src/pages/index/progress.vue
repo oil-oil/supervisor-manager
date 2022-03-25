@@ -47,7 +47,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
 const progressActive = ref([''])
-
 const progressChange = (e: any) => {
     progressActive.value = e.detail
 }
